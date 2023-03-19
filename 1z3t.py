@@ -1,4 +1,4 @@
-x="Irina Zabavina!"
-y="Hello"
-z="You just delved into Python. Great start!"
-print(y,x,z)
+print('Привет!')
+name=str(input("Введите имя: "))
+surname=str(input("Введите фамилию: "))
+print(f"Привет {name} {surname}")
